@@ -69,13 +69,13 @@ One note before you delve into your tasks: for each endpoint you are expected to
 ## Api Documentation
 
 Errors are returned as JSON objects in the following format: 
+    ```
     {
         'success': False,
         'error': 500,
         'message': 'Internal Server Error'
-
     }
-
+```
 This API will return three error types when requests fail: 
     - 400: Bad Request
     - 404: Not Found
